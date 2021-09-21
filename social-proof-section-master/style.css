@@ -1,0 +1,81 @@
+:root {
+    --colour-dark-magenta:hsl(300, 43%, 22%);
+    --colour-soft-pink: hsl(333, 80%, 67%);
+    --colour-dark-gray-magenta: hsl(303, 10%, 53%);
+    --colour-light-gray-magenta: hsl(300, 24%, 96%);
+    --colour-white: hsl(0, 0%, 100%);
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+}
+
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+
+/* Centering starts */
+html, body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+    background-color: var(--colour-white);
+    box-shadow: 5px 5px 10px rgb(143, 143, 143);
+    padding: 2rem;
+
+}
+
+/* Centering ends */
+
+/* Desktop background starts */
+
+.bg-desktop {
+    position: absolute;
+    z-index: -2;
+}
+
+.bg-mobile {
+    position: absolute;
+    z-index: -2;
+    display: none;    
+}
+
+.bg-top {
+    top: 0;
+    left: 0;
+}
+
+.bg-bottom {
+    bottom: 0;
+    right: 0;
+}
+
+/* Desktop background ends */
+
+
+
+.marketing-hook {
+    width: 30rem;
+}
+
+.marketing-hook h1 {
+    font-weight: var(--fw-700);
+    font-size: 2.8rem;
+}
