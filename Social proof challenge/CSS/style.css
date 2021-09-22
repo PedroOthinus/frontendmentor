@@ -3,10 +3,13 @@
     --colour-soft-pink: hsl(333, 80%, 67%);
     --colour-dark-gray-magenta: hsl(303, 10%, 53%);
     --colour-light-gray-magenta: hsl(300, 24%, 96%);
+    --colour-transparent-white: rgba(255, 255, 255, 0.151);
     --colour-white: hsl(0, 0%, 100%);
     --fw-400: 400;
     --fw-500: 500;
     --fw-700: 700;
+    --spacer-LR: 2rem;
+    --spacer-top: 4rem;
 }
 
 * { 
@@ -17,7 +20,6 @@ body {
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
 }
-
 
 /* Centering starts */
 html, body {
@@ -31,15 +33,15 @@ body{
 
 main {
     margin: 0 auto;
-    width: 100rem;
+    width: 110rem;
+    height: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;    
-    background-color: var(--colour-white);
+    background-color: var(--colour-transparent-white);
     box-shadow: 5px 5px 10px rgb(143, 143, 143);
     padding: 2rem;
-
 }
 
 /* Centering ends */
@@ -70,12 +72,61 @@ main {
 /* Desktop background ends */
 
 
+/* Marketing layout start */
 
 .marketing-hook {
     width: 30rem;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: var(--spacer-LR);
+    margin-top: var(--spacer-top)
 }
 
 .marketing-hook h1 {
+    color: var(--colour-dark-magenta);
     font-weight: var(--fw-700);
     font-size: 2.8rem;
+    padding-bottom: 1rem;    
 }
+
+.subtext {
+    color: var(--colour-dark-gray-magenta);
+}
+
+/* Marketing layout ends */
+
+
+/* Review layout start */
+
+.review-box {
+    display: flex;
+    margin-right: var(--spacer-LR);
+    background-color: var(--colour-light-gray-magenta);
+    padding: 1rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.review-box-2 {
+    margin-left: 4rem;
+}
+
+.review-box-3 {
+    margin-left: 8rem;
+}
+
+.stars-imgs {
+    margin-right: 2rem;
+    width: 101px;
+    height: 15px;
+    background-image: url(/images/icon-star.svg) ;
+    background-repeat: space;
+}
+
+/* Review layout ends */
+
+/* Costumers feedback starts  */
+
+
+
