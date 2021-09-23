@@ -33,15 +33,13 @@ body{
 
 main {
     margin: 0 auto;
-    width: 110rem;
-    height: 50rem;
+    width: 95%;
+    min-height: 90%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;    
     background-color: var(--colour-transparent-white);
-    box-shadow: 5px 5px 10px rgb(143, 143, 143);
-    padding: 2rem;
+    box-shadow: 5px 5px 10px rgb(143, 143, 143);  
 }
 
 /* Centering ends */
@@ -71,13 +69,12 @@ main {
 
 /* Desktop background ends */
 
-
 /* Marketing layout start */
 
 .marketing-hook {
     width: 30rem;
     align-self: flex-start;
-    margin-right: auto;
+    margin-right: 10rem;
     margin-left: var(--spacer-LR);
     margin-top: var(--spacer-top)
 }
@@ -95,17 +92,20 @@ main {
 
 /* Marketing layout ends */
 
-
 /* Review layout start */
 
 .review-box {
     display: flex;
     margin-right: var(--spacer-LR);
     background-color: var(--colour-light-gray-magenta);
-    padding: 1rem;
-    width: 25rem;
+    padding: 1.3rem 1.2rem;
+    width: 26rem;
     margin-bottom: 1rem;
     border-radius: 10px;
+}
+
+.review-box-1 {
+    margin-top: var(--spacer-top);
 }
 
 .review-box-2 {
@@ -124,9 +124,79 @@ main {
     background-repeat: space;
 }
 
+.rated {
+    color: var(--colour-dark-magenta);
+    font-weight: var(--fw-700);
+}
+
 /* Review layout ends */
 
-/* Costumers feedback starts  */
+/* Costumers feedback layout starts  */
+
+.costumers-hook {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 var(--spacer-LR);
+}
+
+.costumer-feedback {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--colour-white);
+    background-color: var(--colour-dark-magenta);
+    width: 24rem;
+    height: 17rem;
+    margin: 0 0.5rem 0 0.5rem;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.costumer-feedback img {
+    border-radius: 100%;   
+}
+
+.costumer-feedback img {
+    height: 3rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: var(--fw-500);
+}
+
+.costumer-name {
+    margin-bottom: 1rem;
+}
+.costumer-status {
+    color: var(--colour-soft-pink);   
+}
+
+.quote {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+ /* Costumers feedback layout ends */
+
+ .attribution {
+     margin-top: 1rem;
+     font-size: 0.8rem;
+ }
+
+ @media (max-width:950px ) {
+     
+ }
+
+
+
+
+
+
 
 
 
