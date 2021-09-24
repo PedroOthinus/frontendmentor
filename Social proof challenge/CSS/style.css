@@ -189,8 +189,48 @@ main {
  }
 
  @media (max-width:950px ) {
-     
- }
+
+    html, body {
+        height: auto;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .bg-mobile {
+        display: block;    
+    }
+    
+    .bg-top {
+        display: none;
+    }
+    
+    .bg-bottom {
+        display: none;
+    }
+
+    .marketing-hook {
+        margin: 3rem auto 0 ;
+    }
+    
+    .review-box {
+        margin-left: auto;
+        width: 100%;
+    }
+
+
+    
+    .costumers-hook {
+        flex-direction: column;
+    }
+    
+    .costumer-feedback {
+        margin: 0.5rem auto 0.5rem auto;   
+        width: 100%;
+    }
+    
+}
 
 
 
