@@ -34,7 +34,7 @@ body{
 main {
     margin: 0 auto;
     width: 95%;
-    min-height: 90%;
+    height: fit-content;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;    
@@ -76,7 +76,9 @@ main {
     align-self: flex-start;
     margin-right: 10rem;
     margin-left: var(--spacer-LR);
-    margin-top: var(--spacer-top)
+    margin-top: var(--spacer-top);
+    
+    
 }
 
 .marketing-hook h1 {
@@ -137,7 +139,7 @@ main {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    margin: 0 var(--spacer-LR);
+    margin: 2rem var(--spacer-LR);
 }
 
 .costumer-feedback {
@@ -146,7 +148,7 @@ main {
     color: var(--colour-white);
     background-color: var(--colour-dark-magenta);
     width: 24rem;
-    height: 17rem;
+    height: 100%;
     margin: 0 0.5rem 0 0.5rem;
     border-radius: 10px;
     padding: 3rem;
