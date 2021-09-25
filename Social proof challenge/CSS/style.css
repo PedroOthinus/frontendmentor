@@ -39,6 +39,7 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;    
     background-color: var(--colour-transparent-white); 
+    padding: 0 10%;
 }
 
 /* Centering ends */
@@ -137,8 +138,8 @@ main {
 .costumers-hook {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
-    margin: 2rem var(--spacer-LR);
+    justify-content: center;
+    margin: 7rem auto;
 }
 
 .costumer-feedback {
@@ -148,7 +149,7 @@ main {
     background-color: var(--colour-dark-magenta);
     width: 24rem;
     height: fit-content;
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0 1.5%;
     border-radius: 10px;
     padding: 3rem;
 }
@@ -159,6 +160,18 @@ main {
 
 .costumer-feedback img {
     height: 3rem;
+}
+
+.costumer-colton {
+    margin-top: 2rem;
+}
+
+.costumer-irene {
+    margin-top: 4rem;
+}
+
+.costumer-wallace{
+    margin-top: 6rem;
 }
 
 .wrapper {
@@ -197,6 +210,7 @@ main {
 
     main {
         width: 100%;
+        padding: 0%;
     }
 
     .bg-mobile {
