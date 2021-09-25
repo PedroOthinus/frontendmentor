@@ -8,6 +8,6 @@ Ordered from newest to oldest:
 
 Social Proof Challenge - Finished on 24/09/2021
 
-3 Columns Challenge - Finished on 13/09/2021
+(3 Columns Challenge)[https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-] - Finished on 13/09/2021
 
 
