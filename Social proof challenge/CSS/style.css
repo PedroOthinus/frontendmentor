@@ -9,6 +9,7 @@
     --fw-500: 500;
     --fw-700: 700;
     --spacer-LR: 2rem;
+    --spacer-TOP: 10rem;
 }
 
 * { 
@@ -32,13 +33,12 @@ body{
 
 main {
     margin: 0 auto;
-    width: 95%;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;    
-    background-color: var(--colour-transparent-white);
-    box-shadow: 5px 5px 10px rgb(143, 143, 143);  
+    background-color: var(--colour-transparent-white); 
 }
 
 /* Centering ends */
@@ -75,7 +75,7 @@ main {
     align-self: flex-start;
     margin-right: 10rem;
     margin-left: var(--spacer-LR);
-    margin-top: 2rem;    
+    margin-top: var(--spacer-TOP);    
 }
 
 .marketing-hook h1 {
@@ -95,8 +95,6 @@ main {
 
 /* Review layout start */
 
-
-
 .review-box {
     display: flex;
     margin-right: var(--spacer-LR);
@@ -108,7 +106,7 @@ main {
 }
 
 .review-box-1 {
-    margin-top: 2rem;
+    margin-top: var(--spacer-TOP);
 }
 
 .review-box-2 {
@@ -139,7 +137,7 @@ main {
 .costumers-hook {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 2rem var(--spacer-LR);
 }
 
@@ -149,7 +147,7 @@ main {
     color: var(--colour-white);
     background-color: var(--colour-dark-magenta);
     width: 24rem;
-    height: 100%;
+    height: fit-content;
     margin: 0 0.5rem 0 0.5rem;
     border-radius: 10px;
     padding: 3rem;
