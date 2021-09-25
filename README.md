@@ -8,6 +8,6 @@ Ordered from newest to oldest:
 
 [Social Proof Challenge](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) - Done with HTML and CSS Flexbox - Finished on 24/09/2021 - [Preview Site](https://social-proof-pedro-augusto.netlify.app/)
 
-[3 Columns Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) - Done with HTML and CSS Flexbox - Finished on 13/09/2021 [Preview Site](https://3-columns-pedro-augusto.netlify.app/)
+[3 Columns Challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) - Done with HTML and CSS Flexbox - Finished on 13/09/2021- [Preview Site](https://3-columns-pedro-augusto.netlify.app/)
 
 
