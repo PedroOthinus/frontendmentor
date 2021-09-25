@@ -85,8 +85,10 @@ main {
     padding-bottom: 2rem;    
 }
 
-.subtext {
+.marketing-hook p {
     color: var(--colour-dark-gray-magenta);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* Marketing layout ends */
@@ -200,7 +202,8 @@ main {
     }
 
     .bg-mobile {
-        display: block;    
+        display: inline-flex;
+        max-width: 100%;
     }
     
     .bg-desktop {
@@ -212,6 +215,14 @@ main {
         padding: 0 2rem 0 2rem;
     }
 
+    .marketing-hook h1 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .marketing-hook p {
+        text-align: center;
+    }
 
     .review-hook {
         margin-top: 2rem;
