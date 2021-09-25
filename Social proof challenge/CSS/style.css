@@ -9,7 +9,6 @@
     --fw-500: 500;
     --fw-700: 700;
     --spacer-LR: 2rem;
-    --spacer-top: 4rem;
 }
 
 * { 
@@ -76,16 +75,14 @@ main {
     align-self: flex-start;
     margin-right: 10rem;
     margin-left: var(--spacer-LR);
-    margin-top: var(--spacer-top);
-    
-    
+    margin-top: 2rem;    
 }
 
 .marketing-hook h1 {
     color: var(--colour-dark-magenta);
     font-weight: var(--fw-700);
     font-size: 2.8rem;
-    padding-bottom: 1rem;    
+    padding-bottom: 2rem;    
 }
 
 .subtext {
@@ -95,6 +92,8 @@ main {
 /* Marketing layout ends */
 
 /* Review layout start */
+
+
 
 .review-box {
     display: flex;
@@ -107,7 +106,7 @@ main {
 }
 
 .review-box-1 {
-    margin-top: var(--spacer-top);
+    margin-top: 2rem;
 }
 
 .review-box-2 {
@@ -204,24 +203,32 @@ main {
         display: block;    
     }
     
-    .bg-top {
-        display: none;
-    }
-    
-    .bg-bottom {
+    .bg-desktop {
         display: none;
     }
 
     .marketing-hook {
-        margin: 3rem auto 0 ;
+        margin: 8rem auto 0 auto;
+        padding: 0 2rem 0 2rem;
+    }
+
+
+    .review-hook {
+        margin-top: 2rem;
+        width: 100%;
     }
     
     .review-box {
-        margin-left: auto;
-        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem auto 1.5rem auto;
+        max-width: 90%;   
     }
 
-
+    .rated {
+        padding-top: 0.8rem;
+    }
     
     .costumers-hook {
         flex-direction: column;
@@ -229,9 +236,8 @@ main {
     
     .costumer-feedback {
         margin: 0.5rem auto 0.5rem auto;   
-        width: 100%;
-    }
-    
+        max-width: 90%;
+    }   
 }
 
 
