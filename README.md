@@ -1,7 +1,7 @@
 # frontendmentor
 A single repository for all of my frontendmentor.io projects. Currently 2 projects in it.
 
-It is meant as a way to remember my evolution, so older projects may reflect skills that I may have alread improved on.
+It is meant as a way to remember my evolution, so older projects may reflect skills that I may have already improved on.
 
 
 Ordered from newest to oldest:
