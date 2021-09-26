@@ -1,0 +1,134 @@
+:root {
+    --sedansBG:hsl(31, 77%, 52%);
+    --suvsBG: hsl(184, 100%, 22%);
+    --luxuryBG: hsl(179, 100%, 13%);
+    --whiteColor: hsla(0, 0%, 100%, 0.75);
+    --grayColor: hsl(0, 0%, 95%);   
+}
+
+
+/* Centering starts */
+
+
+html, body, .cards-container {
+    height: 100%;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+/* Centering ends */
+
+
+
+/* Card styling starts */
+
+
+.cards {
+    box-sizing: border-box;
+    position: relative;
+    width: 20rem;
+    height: 31rem;
+    padding: 2.5rem;
+}
+
+
+.card-sedans {
+    background-color: var(--sedansBG);
+    border-radius: 10px 0 0 10px ;
+}
+
+.card-SUVS {
+    background-color: var(--suvsBG);
+}
+
+.card-luxury {
+    background-color: var(--luxuryBG);
+    border-radius: 0 10px 10px 0;
+}
+
+/* Card styling ends */
+
+
+/* Text Styling starts */
+
+
+.cards-title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--grayColor);
+    text-transform: uppercase;
+    font-size: 1.85rem;
+}
+
+.cards-paragraph {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--whiteColor);
+    font-size: 1.0rem;
+    line-height: 2;
+}
+
+
+/* Text Styling ends */
+
+/* Button Styling starts */
+
+.button-sedans {
+    color: var(--sedansBG);
+}
+
+.button-SUVS {
+    color: var(--suvsBG);
+}
+
+.button-luxury {
+    color: var(--luxuryBG);
+}
+
+.button {
+    padding: 1rem;
+    width: 10rem;
+    position: absolute;
+    bottom: 3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--grayColor);
+    border: 3px solid var(--grayColor);
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--grayColor);
+    cursor: pointer;
+}
+
+/* Button Styling ends */
+
+
+/* Responsiviness starts */
+
+@media (max-width:710px ) { 
+
+    html, body, .cards-container {
+
+        height: auto;
+    }
+   
+    .cards-container {
+        flex-direction: column;
+    }
+    
+    .card-sedans {
+        border-radius: 10px 10px 0 0 ;
+    
+    }
+
+    .card-luxury {
+        border-radius: 0 0 10px 10px ;
+    }
+
+
+  }
