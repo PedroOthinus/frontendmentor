@@ -1,0 +1,18 @@
+:root {
+  /* Colours */
+
+  --colour-primary-one: hsl(0, 78%, 62%);
+  --colour-primary-two: hsl(180, 62%, 55%);
+  --colour-primary-three: hsl(34, 97%, 64%);
+  --colour-primary-four: hsl(212, 86%, 64%);
+
+  --colour-neutral-one: hsl(234, 12%, 34%);
+  --colour-neutral-two: hsl(229, 6%, 66%);
+  --colour-neutral-three: hsl(0, 0%, 98%);
+
+  /* Typography */
+
+  --font-FW-200: 200;
+  --font-FW-400: 400;
+  --font-fw-600: 600;
+}
