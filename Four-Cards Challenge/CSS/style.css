@@ -1,18 +1,110 @@
 :root {
   /* Colours */
 
-  --colour-primary-one: hsl(0, 78%, 62%);
-  --colour-primary-two: hsl(180, 62%, 55%);
-  --colour-primary-three: hsl(34, 97%, 64%);
-  --colour-primary-four: hsl(212, 86%, 64%);
+  --clr-primary-01: hsl(0, 78%, 62%);
+  --clr-primary-02: hsl(180, 62%, 55%);
+  --clr-primary-03: hsl(34, 97%, 64%);
+  --clr-primary-04: hsl(212, 86%, 64%);
 
-  --colour-neutral-one: hsl(234, 12%, 34%);
-  --colour-neutral-two: hsl(229, 6%, 66%);
-  --colour-neutral-three: hsl(0, 0%, 98%);
+  --clr-neutral-01: hsl(234, 12%, 34%);
+  --clr-neutral-02: hsl(229, 6%, 66%);
+  --clr-neutral-03: hsl(0, 0%, 98%);
 
   /* Typography */
 
-  --font-FW-200: 200;
-  --font-FW-400: 400;
-  --font-fw-600: 600;
+  --FW-200: 200;
+  --FW-400: 400;
+  --FW-600: 600;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-neutral-03);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* Header */
+
+header {
+  margin: 3rem auto 1rem auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: var(--FW-200);
+  color: var(--clr-neutral-01);
+}
+
+.h1-strong {
+  font-weight: var(--FW-600);
+}
+
+.h1-subtext {
+  color: var(--clr-neutral-02);
+  text-align: center;
+}
+
+/* Cards */
+
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.card {
+  width: 85%;
+  margin: 0 auto 2rem auto;
+  padding: 1.4rem 2rem;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px var(--clr-neutral-02);
+  border-top: 0.3rem solid;
+}
+
+.card-supervisor {
+  border-color: var(--clr-primary-02);
+}
+
+.card-builder {
+  border-color: var(--clr-primary-01);
+}
+
+.card-karma {
+  border-color: var(--clr-primary-03);
+}
+
+.card-calculator {
+  border-color: var(--clr-primary-04);
+}
+
+.card h3 {
+  color: var(--clr-neutral-01);
+  margin: 0px;
+  padding: 0px;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  padding: 0px;
+  font-size: 0.9rem;
+  color: var(--clr-neutral-02);
+  font-weight: var(--FW-400);
+}
+
+.card-image-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2.5rem;
 }
