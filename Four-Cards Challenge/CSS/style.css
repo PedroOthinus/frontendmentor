@@ -64,8 +64,13 @@ main {
   align-items: center;
 }
 
+.desktop-column-wrapper {
+  width: 100%;
+}
+
 .card {
-  width: 85%;
+  width: 82%;
+  max-width: 28rem;
   margin: 0 auto 2rem auto;
   padding: 1.4rem 2rem;
   border-radius: 7px;
@@ -106,5 +111,24 @@ main {
 .card-image-wrapper {
   display: flex;
   justify-content: flex-end;
-  margin-top: 2.5rem;
+  margin: 3rem auto 1rem auto;
+}
+
+.attribution,
+.attribution a {
+  color: var(--clr-neutral-01);
+}
+
+@media screen and (min-width: 900px) {
+  main {
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .desktop-column-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 33.33%;
+  }
 }
