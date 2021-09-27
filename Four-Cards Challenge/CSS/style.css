@@ -38,6 +38,7 @@ body {
 header {
   margin: 3rem auto 1rem auto;
   padding: 1.5rem;
+  width: 100%;
 }
 
 h1 {
@@ -74,7 +75,7 @@ main {
   margin: 0 auto 2rem auto;
   padding: 1.4rem 2rem;
   border-radius: 7px;
-  box-shadow: 0 10px 20px var(--clr-neutral-02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.151);
   border-top: 0.3rem solid;
 }
 
@@ -120,6 +121,10 @@ main {
 }
 
 @media screen and (min-width: 900px) {
+  header {
+    width: 40%;
+  }
+
   main {
     flex-flow: row;
     justify-content: center;
